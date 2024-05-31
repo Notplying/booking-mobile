@@ -119,6 +119,14 @@ class _BookingServiceScreenState extends State<BookingServiceScreen> {
                       child: Text('10.000 Kilometer'),
                       value: '10.000 Kilometer',
                     ),
+                    DropdownMenuItem(
+                      child: Text('Rutin'),
+                      value: 'Rutin',
+                    ),
+                    DropdownMenuItem(
+                      child: Text('Kerusakan/Kendala'),
+                      value: 'Kerusakan/Kendala',
+                    ),
                   ],
                   onChanged: (value) {
                     setState(() {
